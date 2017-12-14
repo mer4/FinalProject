@@ -16,6 +16,7 @@
 </head>
 
 <body>
+<h1>All Tasks</h1>
 
 <?php
 //this is how you print something
