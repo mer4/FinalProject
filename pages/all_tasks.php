@@ -16,6 +16,9 @@
 </head>
 
 <body>
+
+<a href="index.php?page=tasks&action=create">Create Task</a>
+
 <h1>All Tasks</h1>
 
 <?php
