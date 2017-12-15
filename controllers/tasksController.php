@@ -53,12 +53,13 @@ class tasksController extends http\controller
         //print_r($_POST);
         $todo = new todo();
         session_start();
+        date_default_timezone_set("America/New_York");
         $todo->ownerid = $_SESSION['userID'];
-        $todo->owneremail = $_POST['owneremail'];
-        $todo->createddate = $_POST['createddate'];
-        $todo->duedate = $_POST['duedate'];
-        $todo->message = $_POST['message'];
+        $todo->createddate = date("Y/m/d");
         $todo->isdone = $_POST['isdone'];
+        $todo->message = $_POST['message'];
+        $todo->owneremail = $_POST['owneremail'];
+        $todo->duedate = $_POST['duedate'];
 
         $todo->save();
     }
