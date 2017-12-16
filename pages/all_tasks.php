@@ -17,17 +17,18 @@
 
 <body>
 
-<a href="index.php?page=tasks&action=create">Create Task</a>
+<a href="index.php?page=tasks&action=create">Create New Task</a>
 
 <h1>Tasks List</h1>
 
 <?php
 //this is how you print something
-
-var_dump($data);
-
-print utility\htmlTable::genarateTableFromMultiArray($data);
-
+//var_dump($data);
+if($data == false) {
+    echo 'You have no tasks.';
+} else {
+    print utility\htmlTable::genarateTableFromMultiArray($data);
+}
 
 ?>
 
