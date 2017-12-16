@@ -24,6 +24,8 @@
 <?php
 //this is how you print something
 
+var_dump($data);
+
 print utility\htmlTable::genarateTableFromMultiArray($data);
 
 
