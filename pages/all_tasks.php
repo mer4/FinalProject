@@ -19,7 +19,7 @@
 
 <a href="index.php?page=tasks&action=create">Create Task</a>
 
-<h1>All Tasks</h1>
+<h1>Tasks List</h1>
 
 <?php
 //this is how you print something
