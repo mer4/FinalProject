@@ -25,7 +25,7 @@
 //this is how you print something
 //var_dump($data);
 if($data == false) {
-    echo 'You have no tasks.';
+    echo '<p>You have no tasks.</p>';
 } else {
     print utility\htmlTable::genarateTableFromMultiArray($data);
 }
