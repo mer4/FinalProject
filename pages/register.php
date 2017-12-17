@@ -17,6 +17,7 @@
 
 <body>
 
+<h1>Complete Form</h1>
 
 <form action="index.php?page=accounts&action=register" method="post">
     First Name: <input type="text" name="fname"><br>

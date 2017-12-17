@@ -17,6 +17,7 @@
 
 <body>
 
+<h1>Add Task</h1>
 
 <form action="index.php?page=tasks&action=create" method="post">
     Owner Email: <input type="text" name="owneremail" value="<?php echo $data->owneremail; ?>"><br>
