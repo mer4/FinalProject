@@ -129,7 +129,7 @@ class accountsController extends http\controller
 
 
         if ($user == FALSE) {
-            echo 'user not found';
+            echo 'User not found.';
         } else {
 
             if($user->checkPassword($_POST['password']) == TRUE) {
@@ -144,7 +144,7 @@ class accountsController extends http\controller
                 header("Location: index.php?page=tasks&action=all");
 
             } else {
-                echo 'password does not match';
+                echo 'Password does not match.';
             }
 
         }
