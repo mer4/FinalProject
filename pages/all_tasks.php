@@ -17,6 +17,8 @@
 
 <body>
 
+<a href="index.php">Homepage</a><br>
+
 <a href="index.php?page=tasks&action=create">Create New Task</a>
 
 <h1>Tasks List</h1>

@@ -16,6 +16,9 @@
 </head>
 
 <body>
+
+<a href="index.php">Homepage</a><br>
+
 <h1>All Accounts</h1>
 
 <?php
