@@ -19,10 +19,12 @@
 
 <body>
 
-<h1>Email: <?php echo $data->email; ?></h1>
-<h1>First Name: <?php echo $data->fname; ?></h1>
-<h1>Last Name: <?php echo $data->lname; ?></h1>
-
+<h3>Email: <?php echo $data->email; ?></h3>
+<h3>First Name: <?php echo $data->fname; ?></h3>
+<h3>Last Name: <?php echo $data->lname; ?></h3>
+<h3>Phone: <?php echo $data->phone; ?></h3>
+<h3>Birthday: <?php echo $data->birthday; ?></h3>
+<h3>Gender: <?php echo $data->gender; ?></h3>
 
 <?php
 //this is how you print something  $data contains the record that was selected on the table.
